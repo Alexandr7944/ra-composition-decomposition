@@ -12,6 +12,7 @@ type NewsListProps = {
 
 const NewsList: React.FC<NewsListProps> = ({ url }) => {
   const newsList = url;
+  console.log(newsList);  
 
   return (
     <ul className='news-list'>
